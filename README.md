@@ -50,6 +50,14 @@ If you want to deselect the virtual environment, use this command:
 conda deactivate
 ```
 
+To remove virtual environment from the jupyter, use the following command:
+```
+# List all kernels and grap the name of the kernel you want to remove
+jupyter kernelspec list
+# Remove it
+jupyter kernelspec remove <kernel_name>
+```
+
 ----
 ## Tutorial
 1. [Flood data](https://github.com/sgulyano/swtech_ws/blob/master/flood_viz.ipynb)
