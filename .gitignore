@@ -6,3 +6,7 @@ DOAE spatial data/
 tha_adm_rtsd_itos_20190221_shp_part_1/
 
 tha_adm_rtsd_itos_20190221_shp_part_1.zip
+
+mycode/__pycache__/
+
+__pycache__/
